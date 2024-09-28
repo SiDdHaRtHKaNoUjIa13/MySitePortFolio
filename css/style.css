@@ -9589,6 +9589,23 @@ textarea.form-control {
     margin-bottom: 20px;
     font-size: 20px; }
 
+  
+    .mera {
+      width: 200px; /* Adjust the size as needed */
+      height: 200px; /* Adjust the size as needed */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 50%; /* Makes the image circular */
+      
+      overflow: hidden; /* Ensure image doesn't exceed the circle */
+      position: relative;
+      margin-right: 0; /* Default alignment for larger screens */
+      margin-left: auto;
+    }
+    
+
+
 .categories, .sidelink {
   padding: 0;
   margin: 0; }
